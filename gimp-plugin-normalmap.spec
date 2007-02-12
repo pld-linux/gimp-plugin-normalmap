@@ -1,5 +1,5 @@
 Summary:	GIMP normalmap plugin
-Summary(pl):	Mapa normalnych w GIMP-ie - wtyczka
+Summary(pl.UTF-8):   Mapa normalnych w GIMP-ie - wtyczka
 Name:		gimp-plugin-normalmap
 Version:	1.0.1
 Release:	1
@@ -41,31 +41,31 @@ Features:
 - Dynamic 3D preview window unsing OpenGL to view the normalmap
   applied to a lit primitive
 
-%description -l pl
-To jest wtyczka dla GIMP-a w wersji 2.0.x. Pozwala na konwersjê
-obrazków na mapy RGB normalnych do u¿ywania w aplikacjach
-obliczaj±cych o¶wietlenie na poziomie pikseli. Celem jest ca³kowite
+%description -l pl.UTF-8
+To jest wtyczka dla GIMP-a w wersji 2.0.x. Pozwala na konwersjÄ™
+obrazkÃ³w na mapy RGB normalnych do uÅ¼ywania w aplikacjach
+obliczajÄ…cych oÅ›wietlenie na poziomie pikseli. Celem jest caÅ‚kowite
 sklonowanie wtyczki NVIDII do Photoshopa, z dodatkowymi przydatnymi
 cechami.
 
-Mo¿liwo¶ci:
-- Filtry: obejmuj± filtry wystêpuj±ce we wtyczce NVIDII (4
-  przyk³adowe: 3x3, 5x5, 7x7, 9x9) oraz dodatkowo filtr 3x3 Sobela i
-  Prewitta z wykrywaniem krawêdzi (daje najlepsze wyniki).
+MoÅ¼liwoÅ›ci:
+- Filtry: obejmujÄ… filtry wystÄ™pujÄ…ce we wtyczce NVIDII (4
+  przykÅ‚adowe: 3x3, 5x5, 7x7, 9x9) oraz dodatkowo filtr 3x3 Sobela i
+  Prewitta z wykrywaniem krawÄ™dzi (daje najlepsze wyniki).
 - Skalowanie normalnych w post-processingu.
-- Tryb zawijania - pozwala filtrom na zawijanie wokó³ obrazu.
-  Przydatne do tworzenia mapy normalnych z kaflowych map wysoko¶ci.
-- ¬ród³o wysoko¶ci. U¿ycie ¶rednich sk³adowych RGB lub kana³u alpha
-  jako ¼ród³a wysoko¶ci przy generowaniu normalnych.
-- Wynik alpha. Dla obrazków RGBA kana³ alpha mo¿e pozostaæ
-  niezmieniony, byæ wykorzystany jako wysoko¶æ przy generowaniu
-  normalnych albo byæ zast±piony przez 0 lub 1.
-- Opcje konwersji w³±cznie z sam± normalizacj± do renormalizacji map
-  wysoko¶ci.
+- Tryb zawijania - pozwala filtrom na zawijanie wokÃ³Å‚ obrazu.
+  Przydatne do tworzenia mapy normalnych z kaflowych map wysokoÅ›ci.
+- Å¹rÃ³dÅ‚o wysokoÅ›ci. UÅ¼ycie Å›rednich skÅ‚adowych RGB lub kanaÅ‚u alpha
+  jako ÅºrÃ³dÅ‚a wysokoÅ›ci przy generowaniu normalnych.
+- Wynik alpha. Dla obrazkÃ³w RGBA kanaÅ‚ alpha moÅ¼e pozostaÄ‡
+  niezmieniony, byÄ‡ wykorzystany jako wysokoÅ›Ä‡ przy generowaniu
+  normalnych albo byÄ‡ zastÄ…piony przez 0 lub 1.
+- Opcje konwersji wÅ‚Ä…cznie z samÄ… normalizacjÄ… do renormalizacji map
+  wysokoÅ›ci.
 - Tworzenie map DU/DV (8 i 16-bitowych, ze znakiem lub bez)
-- Dynamiczny podgl±d 2D w interaktywnym oknie dialogowym.
-- Dynamiczny podgl±d 3D w oddzielnym oknie z wykorzystaniem OpenGL do
-  ogl±dania mapy normalnych na³o¿onej na bry³ê.
+- Dynamiczny podglÄ…d 2D w interaktywnym oknie dialogowym.
+- Dynamiczny podglÄ…d 3D w oddzielnym oknie z wykorzystaniem OpenGL do
+  oglÄ…dania mapy normalnych naÅ‚oÅ¼onej na bryÅ‚Ä™.
 
 %prep
 %setup -q -n normalmap
