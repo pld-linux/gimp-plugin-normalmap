@@ -1,5 +1,5 @@
 Summary:	GIMP normalmap plugin
-Summary(pl.UTF-8):   Mapa normalnych w GIMP-ie - wtyczka
+Summary(pl.UTF-8):	Mapa normalnych w GIMP-ie - wtyczka
 Name:		gimp-plugin-normalmap
 Version:	1.0.1
 Release:	1
