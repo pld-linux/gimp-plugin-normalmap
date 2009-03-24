@@ -1,12 +1,12 @@
 Summary:	GIMP normalmap plugin
 Summary(pl.UTF-8):	Mapa normalnych w GIMP-ie - wtyczka
 Name:		gimp-plugin-normalmap
-Version:	1.0.1
+Version:	1.2.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	http://nifelheim.dyndns.org/~cocidius/files/gimp-normalmap-%{version}.tar.bz2
-# Source0-md5:	d016b807098454d4fff3648d6feabddf
+# Source0-md5:	75fcfe3d4abdcd75d92f0a85928cf093
 URL:		http://nifelheim.dyndns.org/~cocidius/normalmap/
 BuildRequires:	gimp-devel >= 1:2.0.0
 BuildRequires:	gtkglext-devel >= 0.7.1
@@ -68,7 +68,7 @@ Możliwości:
   oglądania mapy normalnych nałożonej na bryłę.
 
 %prep
-%setup -q -n normalmap
+%setup -q -n gimp-normalmap-%{version}
 
 %build
 %{__make} \
